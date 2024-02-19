@@ -1,0 +1,293 @@
+{
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": false,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderIndicators": false,
+    "editor.lineHeight": 1.75,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.suggest.autoImports": true,
+    "javascript.format.enable": true,
+    "editor.tokenColorCustomizations": {
+        "[Kanagawa]": {
+            "textMateRules": [
+                {
+                    "scope": "source.ocaml.interface",
+                    "settings": {
+                        "foreground": "#e5c384",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "source.ocaml",
+                    "settings": {
+                        "foreground": "#E5C384"
+                    }
+                }
+            ]
+        }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontFamily": "NotCourier Nerd Font",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "NotCourier Nerd Font",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "files.insertFinalNewline": true,
+    },
+    "debug.disassemblyView.showSourceCode": false,
+    "emmet.preferences": {},
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    },
+    "editor.accessibilitySupport": "off",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.lineNumbers": "relative",
+    "editor.inlineSuggest.enabled": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.preferredDarkColorTheme": "Gruvbox Dark Medium",
+    "editor.renderWhitespace": "all",
+    "editor.experimentalWhitespaceRendering": "font",
+    "eslint.format.enable": true,
+    "eslint.nodePath": "",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.sideBar.location": "right",
+    "terminal.integrated.fontWeight": "normal",
+    "vim.leader": " ",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "g",
+                "d"
+            ],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "i",
+                "i"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "d"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "v"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "t"
+            ],
+            "commands": [
+                "toggle-explorer-focus.toggleFocus"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.toggleTerminal"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-c>"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Tab>"
+            ],
+            "commands": [
+                "github.copilot.acceptSuggestion"
+            ]
+        }
+    ],
+    "editor.wordWrap": "wordWrapColumn",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "material-icon-theme.activeIconPack": "nest",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "git.autofetch": true,
+    "material-icon-theme.folders.associations": {
+        "domain": "Cluster"
+    },
+    "nxConsole.showNodeVersionOnStartup": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[elixir]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnType": true,
+        "editor.trimAutoWhitespace": false,
+        "editor.formatOnSave": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "editor.defaultFormatter": "saratravi.elixir-formatter"
+    },
+    "editor.formatOnSave": true,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "window.zoomLevel": 1,
+    "[sql]": {
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "editor.gotoLocation.multipleDeclarations": "gotoAndPeek",
+    "editor.gotoLocation.multipleDefinitions": "gotoAndPeek",
+    "editor.gotoLocation.multipleImplementations": "gotoAndPeek",
+    "editor.gotoLocation.multipleReferences": "gotoAndPeek",
+    "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "cSpell.enableFiletypes": [
+        "!go",
+        "!html",
+        "!javascript",
+        "!javascriptreact",
+        "!typescript",
+        "!typescriptreact",
+        "!yaml",
+        "!yml"
+    ],
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "sonarlint.rules": {
+        "typescript:S1440": {
+            "level": "on"
+        },
+        "typescript:S131": {
+            "level": "on"
+        },
+        "typescript:S1105": {
+            "level": "on"
+        }
+    }
+}
